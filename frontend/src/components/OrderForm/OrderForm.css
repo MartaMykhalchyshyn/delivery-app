@@ -1,0 +1,24 @@
+.order-form__container {
+    width: 40%;
+    margin: 50px 20px;
+    position: sticky;
+}
+
+.order-form label{
+    margin: 20px 50px 10px;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 50px 40px ;
+  box-sizing: border-box;
+  border: 3px solid #e7e7e7;
+  border-radius: 8px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.order-form input:focus {
+  border: 3px solid #333;
+}
